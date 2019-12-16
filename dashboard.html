@@ -7,18 +7,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+  
     <title>moMoza</title>
 
     <style>
-        .menu{
-            background:blue;
-            height: 100vh;
-        }
-        nav ul li{
-            margin: 20px 0;
-            font-size: 18px;
-            color: white;
-        }
+      
     </style>
 </head>
 <body>
@@ -28,40 +22,54 @@
        <div class="col-md-3 menu">
             <aside>
                 <nav>
-                    <h1>RICC</h1>
+                    <h1 class="logo">RICC</h1>
                     <ul class="list-unstyled">
-                        <li>Painel</li>
-                        <li>Adicionar conteudo</li>
-                        <li>Utilizadores</li>
-                        <li>Defenições</li>
+                        <li> <img src="img/Dashboard.png" alt="dashboard"> Painel</li>
+                        <li><img src="img/Articles.png" alt="article"> Adicionar conteudo</li>
+                        <li> <img src="img/Person.png" alt="person">  Utilizadores</li>
+                        <li><img src="img/Cog.png" alt="cong"> Defenições</li>
                     </ul>
                 </nav>
             </aside>
        </div>
        <div class="col-md-9">
+
            <div class="row">
+             <div class="col-md-1">
+
+             </div>
                
-           <div class="col-md-2">
+           <div class="col-md-2 dashboard">
                 <i class="fas fa-video"></i>
-                <p>Utilizadores (4)</p>
+        
+                <img src="img/person.png" alt="person">
+                <p class="text-center">Utilizadores (4)</p>
 
            </div>
-           <div class="col-md-2">
-                <p>Videos (21)</p>
+           <div class="col-md-2 dashboard">
+            <img src="img/video.png" alt="video">    
+            <p class="text-center">Videos (21)</p>
+
 
             </div>
-            <div class="col-md-2">
-                    <p>Artigos (13)</p>
+            <div class="col-md-2 dashboard">
+              <img src="img/articles.png" alt="article">
+                    <p class="text-center">Artigos (13)</p>
 
             </div>
-            <div class="col-md-2">
-                    <p>Questionário (13)</p>
+            <div class="col-md-2 dashboard">
+              <img src="img/questionare.png" alt="questionare">
+                    <p class="text-center">Questionário (13)</p>
 
             </div>
-            <div class="col-md-2">
-                    <p>Podcast (3)</p>
+            <div class="col-md-2 dashboard">
+              <img src="img/radio.png" alt="podcast">
+                    <p class="text-center">Podcast (3)</p>
 
             </div>
+            <div class="col-md-1">
+               
+              </div>
 
          
            

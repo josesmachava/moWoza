@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+  
+
+    <title>moMoza</title>
+
+    <style>
+     
+        .inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: black;
+    width: 200px;
+    border:1px solid blue;
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    font-size: 17px;
+    line-height: 2;
+    margin: 0 auto;
+    display: block;
+   
+
+}
+h2{
+    text-align: center;
+}
+form{
+    border:1px solid #ddd9d9;
+}
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: white;
+    color: black;
+}
+.btn{
+    float: right;
+    width: 200px;
+}
+    </style>
+</head>
+<body>
+    
+   <div class="container-fluid">
+       <div class="row">
+       <div class="col-md-3 menu">
+            <aside>
+                <nav>
+                    <h1>RICC</h1>
+                    <ul class="list-unstyled">
+                        <li>Painel</li>
+                        <li>Adicionar conteudo</li>
+                        <li>Utilizadores</li>
+                        <li>Defenições</li>
+                    </ul>
+                </nav>
+            </aside>
+       </div>
+       <div class="col-md-9">
+           <div class="row">
+               
+           <div class="col-md-9">
+               <h1>Video</h1>
+               <form action="">
+                    <h2>Carregue o video para esta área</h2>
+                    <h2>(ou)</h2>
+                    <input type="file" name="file" id="file" class="inputfile" />
+<label for="file">Selecionar video</label>
+<button type="submit" class="btn btn-primary">Entar</button>
+
+            </form>
+           </div>
+           
+            <div class="col-md-2">
+                <select>
+                    <option value="option">Categories</option>
+                    <option value="option">Categories</option>
+                    <option value="option">Categories</option>
+                    <option value="option">Categories</option>
+                </select>       
+
+               <p>Adicionar Categoris</p>
+            </div>
+               
+        </div>
+    </div>
+   </div>
+</div>
+</div> 
+<script src="js/app.js"></script>
+</body>
+</html>
