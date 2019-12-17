@@ -17,6 +17,11 @@ nav ul li{
     color: white;
     margin-top: 30px;
 }
+.download{
+    font-size: 120px;
+    text-align: center;
+
+}
 li img{
     margin-right: 20px;
 }

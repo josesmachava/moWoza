@@ -8,7 +8,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>moMoza</title>
 
     <style>
@@ -60,15 +60,15 @@ form{
        <div class="row">
        <div class="col-md-3 menu">
             <aside>
-                <nav>
-                    <h1>RICC</h1>
-                    <ul class="list-unstyled">
-                        <li>Painel</li>
-                        <li>Adicionar conteudo</li>
-                        <li>Utilizadores</li>
-                        <li>Defenições</li>
-                    </ul>
-                </nav>
+                    <nav>
+                            <h1 class="logo">RICC</h1>
+                            <ul class="list-unstyled">
+                                <li> <img src="img/Dashboard.png" alt="dashboard"> Painel</li>
+                                <li><img src="img/Articles.png" alt="article"> Adicionar conteudo</li>
+                                <li> <img src="img/Person.png" alt="person">  Utilizadores</li>
+                                <li><img src="img/Cog.png" alt="cong"> Defenições</li>
+                            </ul>
+                        </nav>
             </aside>
        </div>
        <div class="col-md-9">
@@ -77,6 +77,8 @@ form{
            <div class="col-md-9">
                <h1>Podcast</h1>
                <form action="">
+                    <p class="download"><i class="fa fa-cloud-download" aria-hidden="true"></i>
+                    </p>
                     <h2>Carregue o podcast para esta área</h2>
                     <h2>(ou)</h2>
                     <input type="file" name="file" id="file" class="inputfile" />
